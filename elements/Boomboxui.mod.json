@@ -1,0 +1,112 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_what_music_do_you_want_to_play",
+          "text": {
+            "fixedValue": "What music do you want to play ?"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 49
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_music_1",
+          "text": "Music 1",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "PlayMusic1"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 177,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_music_2",
+          "text": "Music 2",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "PlayMusic2"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 177,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_music_3",
+          "text": "Music 3",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "PlayMusic3"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 177,
+          "y": 116
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_music_4",
+          "text": "Music 4",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "PlayMusic4"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 177,
+          "y": 143
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_music_5",
+          "text": "Music 5",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "PlayMusic5"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 177,
+          "y": 170
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

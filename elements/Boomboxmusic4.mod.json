@@ -1,0 +1,24 @@
+{
+  "_fv": 60,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Boombox music 4",
+    "rarity": "COMMON",
+    "texture": "boombox_disc",
+    "description": "Lethal Company boombox music 4",
+    "creativeTab": {
+      "value": "CUSTOM:Boomboxmenu"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:boombox_music_4"
+    },
+    "lengthInTicks": 440,
+    "analogOutput": 0
+  }
+}

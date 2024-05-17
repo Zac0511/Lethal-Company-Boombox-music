@@ -1,0 +1,42 @@
+{
+  "boombox_music_1": {
+    "sounds": [
+      {
+        "name": "lethal_company_boombox_musics:073.-boombox-music1",
+        "stream": true
+      }
+    ]
+  },
+  "boombox_music_2": {
+    "sounds": [
+      {
+        "name": "lethal_company_boombox_musics:074.-boombox-music2",
+        "stream": true
+      }
+    ]
+  },
+  "boombox_music_3": {
+    "sounds": [
+      {
+        "name": "lethal_company_boombox_musics:076.-boombox-music3",
+        "stream": true
+      }
+    ]
+  },
+  "boombox_music_4": {
+    "sounds": [
+      {
+        "name": "lethal_company_boombox_musics:077.-boombox-music4",
+        "stream": true
+      }
+    ]
+  },
+  "boombox_music_5": {
+    "sounds": [
+      {
+        "name": "lethal_company_boombox_musics:078.-boombox-music5-zedfox",
+        "stream": true
+      }
+    ]
+  }
+}
