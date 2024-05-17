@@ -1,10 +1,10 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="MIT License"
+license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="lethal_company_boombox_musics"
-version="1.0.0"
+version="1.0.1"
 displayName="Lethal Company Boombox musics"
 displayURL="https://modrinth.com/project/lethal-company-boombox-musics"
 logoFile="logo.png"
