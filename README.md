@@ -1,6 +1,6 @@
 # Lethal Company Boombox music
 
-[![Static Badge](https://img.shields.io/badge/Download-on_Modrinth-green?logo=modrinth)](https://modrinth.com/mod/lethal-company-boombox-musics) ![Modrinth Game Versions](https://img.shields.io/modrinth/game-versions/ujpABkai)
+[![Static Badge](https://img.shields.io/badge/Download-on_Modrinth-green?logo=modrinth)](https://modrinth.com/mod/lethal-company-boombox-musics) ![Modrinth Game Versions](https://img.shields.io/modrinth/game-versions/ujpABkai) ![GitHub repo size](https://img.shields.io/github/repo-size/Zac0511/Lethal-Company-Boombox-music)
 
 A Minecraft mod that adds the [Lethal Company](https://store.steampowered.com/app/1966720/Lethal_Company/) boombox
 
