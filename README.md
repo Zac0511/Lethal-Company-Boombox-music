@@ -1,4 +1,4 @@
-# Lethal Company Boombox music
+# Lethal Company Boombox musics
 
 [![Static Badge](https://img.shields.io/badge/Download_on-Modrinth-green?logo=modrinth)](https://modrinth.com/mod/lethal-company-boombox-musics) ![Modrinth Game Versions](https://img.shields.io/modrinth/game-versions/ujpABkai?label=Minecraft%20version) ![GitHub repo size](https://img.shields.io/github/repo-size/Zac0511/Lethal-Company-Boombox-music?label=Repo%20size) [![Static Badge](https://img.shields.io/badge/Made_with-MCreator-green)](https://mcreator.net/)
 ***
