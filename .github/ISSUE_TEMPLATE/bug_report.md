@@ -26,7 +26,7 @@ If applicable, add screenshots to help explain your problem.
 **Desktop (please complete the following information):**
  - OS: [e.g. Windows]
  - Launcher [e.g. MultiMC]
- - Version [e.g. 1.20.1]
+ - Minecraft version [e.g. 1.20.1]
 
 **Additional context**
 Add any other context about the problem here.
