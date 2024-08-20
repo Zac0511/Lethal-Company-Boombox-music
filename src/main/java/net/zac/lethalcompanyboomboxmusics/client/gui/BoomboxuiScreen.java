@@ -67,11 +67,6 @@ public class BoomboxuiScreen extends AbstractContainerScreen<BoomboxuiMenu> {
 	}
 
 	@Override
-	public void containerTick() {
-		super.containerTick();
-	}
-
-	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.lethal_company_boombox_musics.boomboxui.label_what_music_do_you_want_to_play"), 5, 12, -12829636, false);
 	}

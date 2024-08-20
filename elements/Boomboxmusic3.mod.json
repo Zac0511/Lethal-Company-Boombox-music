@@ -1,14 +1,16 @@
 {
-  "_fv": 60,
+  "_fv": 66,
   "_type": "musicdisc",
   "definition": {
     "name": "Boombox music 3",
     "rarity": "COMMON",
     "texture": "boombox_disc",
     "description": "Lethal Company boombox music 3",
-    "creativeTab": {
-      "value": "CUSTOM:Boomboxmenu"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Boomboxmenu"
+      }
+    ],
     "specialInformation": {
       "fixedValue": []
     },
