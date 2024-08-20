@@ -12,4 +12,13 @@ You can go check the [Wiki](https://github.com/Zac0511/Lethal-Company-Boombox-mu
 I you want to modify the mod, go check the  [wiki page](https://github.com/Zac0511/Lethal-Company-Boombox-music/wiki/How-to-download-and-edit-the-uncompiled-mod)
 ***
 
+The mod is currently compatible with the following languages : 
+
+* English (`en_us`)
+* French (`fr_fr`)
+
+If your game is using another language, the mod will use the default language, which is English (`en_us`)
+
+***
+
 ![Modrinth Downloads](https://img.shields.io/modrinth/dt/ujpABkai?logo=modrinth&label=Modrinth%20downloads&color=green) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Zac0511/Lethal-Company-Boombox-music/total?logo=github&label=GitHub%20downloads%20(source%20and%20releases)&color=blue)
