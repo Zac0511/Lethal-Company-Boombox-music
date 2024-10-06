@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="lethal_company_boombox_musics"
+version="1.2.0"
+displayName="Lethal Company Boombox musics"
+updateJSONURL="https://pastebin.com/raw/4LqC5jag"
+displayURL="https://modrinth.com/mod/lethal-company-boombox-musics"
+logoFile="logo.png"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="Zac0511"
+description="A mod that allows you to have the Lethal Company boombox in Minecraft"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.lethal_company_boombox_musics]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.65,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.lethal_company_boombox_musics]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

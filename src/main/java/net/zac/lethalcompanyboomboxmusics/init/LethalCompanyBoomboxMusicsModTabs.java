@@ -6,8 +6,8 @@ package net.zac.lethalcompanyboomboxmusics.init;
 
 import net.zac.lethalcompanyboomboxmusics.LethalCompanyBoomboxMusicsMod;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredHolder;
 
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
@@ -16,7 +16,7 @@ import net.minecraft.core.registries.Registries;
 
 public class LethalCompanyBoomboxMusicsModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, LethalCompanyBoomboxMusicsMod.MODID);
-	public static final RegistryObject<CreativeModeTab> BOOMBOXMENU = REGISTRY.register("boomboxmenu",
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> BOOMBOXMENU = REGISTRY.register("boomboxmenu",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.lethal_company_boombox_musics.boomboxmenu")).icon(() -> new ItemStack(LethalCompanyBoomboxMusicsModItems.BOOMBOX.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(LethalCompanyBoomboxMusicsModItems.BOOMBOX.get());
 				tabData.accept(LethalCompanyBoomboxMusicsModItems.BOOMBOXMUSIC_1.get());

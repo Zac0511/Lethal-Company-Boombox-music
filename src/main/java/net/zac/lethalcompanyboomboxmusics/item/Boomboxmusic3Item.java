@@ -1,15 +1,16 @@
 
 package net.zac.lethalcompanyboomboxmusics.item;
 
-import net.minecraftforge.registries.ForgeRegistries;
+import net.zac.lethalcompanyboomboxmusics.LethalCompanyBoomboxMusicsMod;
 
-import net.minecraft.world.item.RecordItem;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.core.registries.Registries;
 
-public class Boomboxmusic3Item extends RecordItem {
+public class Boomboxmusic3Item extends Item {
 	public Boomboxmusic3Item() {
-		super(0, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("lethal_company_boombox_musics:boombox_music_3")), new Item.Properties().stacksTo(1).rarity(Rarity.COMMON), 600);
+		super(new Item.Properties().stacksTo(1).rarity(Rarity.COMMON).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(LethalCompanyBoomboxMusicsMod.MODID, "boomboxmusic_3"))));
 	}
 }

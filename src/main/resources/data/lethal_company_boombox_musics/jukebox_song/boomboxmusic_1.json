@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.lethal_company_boombox_musics.boomboxmusic_1.desc"
+  },
+  "length_in_seconds": 18,
+  "sound_event": "lethal_company_boombox_musics:boombox_music_1"
+}

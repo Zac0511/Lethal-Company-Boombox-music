@@ -2,7 +2,8 @@ package net.zac.lethalcompanyboomboxmusics.client.gui;
 
 import net.zac.lethalcompanyboomboxmusics.world.inventory.BoomboxuiMenu;
 import net.zac.lethalcompanyboomboxmusics.network.BoomboxuiButtonMessage;
-import net.zac.lethalcompanyboomboxmusics.LethalCompanyBoomboxMusicsMod;
+
+import net.neoforged.neoforge.network.PacketDistributor;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
@@ -39,11 +40,11 @@ public class BoomboxuiScreen extends AbstractContainerScreen<BoomboxuiMenu> {
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("lethal_company_boombox_musics:textures/screens/boomboxui.png");
+	private static final ResourceLocation texture = ResourceLocation.parse("lethal_company_boombox_musics:textures/screens/boomboxui.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(guiGraphics);
+		this.renderBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
@@ -76,7 +77,7 @@ public class BoomboxuiScreen extends AbstractContainerScreen<BoomboxuiMenu> {
 		super.init();
 		button_music_1 = Button.builder(Component.translatable("gui.lethal_company_boombox_musics.boomboxui.button_music_1"), e -> {
 			if (true) {
-				LethalCompanyBoomboxMusicsMod.PACKET_HANDLER.sendToServer(new BoomboxuiButtonMessage(0, x, y, z));
+				PacketDistributor.sendToServer(new BoomboxuiButtonMessage(0, x, y, z));
 				BoomboxuiButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}).bounds(this.leftPos + 51, this.topPos + 25, 61, 20).build();
@@ -84,7 +85,7 @@ public class BoomboxuiScreen extends AbstractContainerScreen<BoomboxuiMenu> {
 		this.addRenderableWidget(button_music_1);
 		button_music_2 = Button.builder(Component.translatable("gui.lethal_company_boombox_musics.boomboxui.button_music_2"), e -> {
 			if (true) {
-				LethalCompanyBoomboxMusicsMod.PACKET_HANDLER.sendToServer(new BoomboxuiButtonMessage(1, x, y, z));
+				PacketDistributor.sendToServer(new BoomboxuiButtonMessage(1, x, y, z));
 				BoomboxuiButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		}).bounds(this.leftPos + 51, this.topPos + 52, 61, 20).build();
@@ -92,7 +93,7 @@ public class BoomboxuiScreen extends AbstractContainerScreen<BoomboxuiMenu> {
 		this.addRenderableWidget(button_music_2);
 		button_music_3 = Button.builder(Component.translatable("gui.lethal_company_boombox_musics.boomboxui.button_music_3"), e -> {
 			if (true) {
-				LethalCompanyBoomboxMusicsMod.PACKET_HANDLER.sendToServer(new BoomboxuiButtonMessage(2, x, y, z));
+				PacketDistributor.sendToServer(new BoomboxuiButtonMessage(2, x, y, z));
 				BoomboxuiButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
 		}).bounds(this.leftPos + 51, this.topPos + 79, 61, 20).build();
@@ -100,7 +101,7 @@ public class BoomboxuiScreen extends AbstractContainerScreen<BoomboxuiMenu> {
 		this.addRenderableWidget(button_music_3);
 		button_music_4 = Button.builder(Component.translatable("gui.lethal_company_boombox_musics.boomboxui.button_music_4"), e -> {
 			if (true) {
-				LethalCompanyBoomboxMusicsMod.PACKET_HANDLER.sendToServer(new BoomboxuiButtonMessage(3, x, y, z));
+				PacketDistributor.sendToServer(new BoomboxuiButtonMessage(3, x, y, z));
 				BoomboxuiButtonMessage.handleButtonAction(entity, 3, x, y, z);
 			}
 		}).bounds(this.leftPos + 51, this.topPos + 106, 61, 20).build();
@@ -108,7 +109,7 @@ public class BoomboxuiScreen extends AbstractContainerScreen<BoomboxuiMenu> {
 		this.addRenderableWidget(button_music_4);
 		button_music_5 = Button.builder(Component.translatable("gui.lethal_company_boombox_musics.boomboxui.button_music_5"), e -> {
 			if (true) {
-				LethalCompanyBoomboxMusicsMod.PACKET_HANDLER.sendToServer(new BoomboxuiButtonMessage(4, x, y, z));
+				PacketDistributor.sendToServer(new BoomboxuiButtonMessage(4, x, y, z));
 				BoomboxuiButtonMessage.handleButtonAction(entity, 4, x, y, z);
 			}
 		}).bounds(this.leftPos + 51, this.topPos + 133, 61, 20).build();

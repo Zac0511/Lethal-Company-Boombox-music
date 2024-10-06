@@ -32,7 +32,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/lethal_company_boombox_musics/models/item/boomboxmusic_1.json",
-          "src/main/java/net/zac/lethalcompanyboomboxmusics/item/Boomboxmusic1Item.java"
+          "src/main/java/net/zac/lethalcompanyboomboxmusics/item/Boomboxmusic1Item.java",
+          "src/main/resources/data/lethal_company_boombox_musics/jukebox_song/boomboxmusic_1.json"
         ]
       }
     },
@@ -44,6 +45,7 @@
       "registry_name": "boomboxmusic_2",
       "metadata": {
         "files": [
+          "src/main/resources/data/lethal_company_boombox_musics/jukebox_song/boomboxmusic_2.json",
           "src/main/resources/assets/lethal_company_boombox_musics/models/item/boomboxmusic_2.json",
           "src/main/java/net/zac/lethalcompanyboomboxmusics/item/Boomboxmusic2Item.java"
         ]
@@ -58,7 +60,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/zac/lethalcompanyboomboxmusics/item/Boomboxmusic3Item.java",
-          "src/main/resources/assets/lethal_company_boombox_musics/models/item/boomboxmusic_3.json"
+          "src/main/resources/assets/lethal_company_boombox_musics/models/item/boomboxmusic_3.json",
+          "src/main/resources/data/lethal_company_boombox_musics/jukebox_song/boomboxmusic_3.json"
         ]
       }
     },
@@ -70,6 +73,7 @@
       "registry_name": "boomboxmusic_4",
       "metadata": {
         "files": [
+          "src/main/resources/data/lethal_company_boombox_musics/jukebox_song/boomboxmusic_4.json",
           "src/main/resources/assets/lethal_company_boombox_musics/models/item/boomboxmusic_4.json",
           "src/main/java/net/zac/lethalcompanyboomboxmusics/item/Boomboxmusic4Item.java"
         ]
@@ -84,7 +88,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/zac/lethalcompanyboomboxmusics/item/Boomboxmusic5Item.java",
-          "src/main/resources/assets/lethal_company_boombox_musics/models/item/boomboxmusic_5.json"
+          "src/main/resources/assets/lethal_company_boombox_musics/models/item/boomboxmusic_5.json",
+          "src/main/resources/data/lethal_company_boombox_musics/jukebox_song/boomboxmusic_5.json"
         ]
       }
     },
@@ -314,7 +319,7 @@
       "registry_name": "boomboxcraft",
       "metadata": {
         "files": [
-          "src/main/resources/data/lethal_company_boombox_musics/recipes/boombox.json"
+          "src/main/resources/data/lethal_company_boombox_musics/recipe/boombox.json"
         ]
       }
     }
@@ -380,11 +385,11 @@
       "item.lethal_company_boombox_musics.boomboxmusic_3": "Boombox music 3",
       "item.lethal_company_boombox_musics.boomboxmusic_4": "Boombox music 4",
       "item.lethal_company_boombox_musics.boomboxmusic_5": "Boombox music 5",
-      "subtitles.boombox_music_4": "",
-      "subtitles.boombox_music_5": "",
-      "subtitles.boombox_music_1": "",
-      "subtitles.boombox_music_2": "",
-      "subtitles.boombox_music_3": "",
+      "subtitles.boombox_music_4": "ZedFox",
+      "subtitles.boombox_music_5": "ZedFox",
+      "subtitles.boombox_music_1": "ZedFox",
+      "subtitles.boombox_music_2": "ZedFox",
+      "subtitles.boombox_music_3": "ZedFox",
       "item.lethal_company_boombox_musics.boomboxmusic_5.desc": "Lethal Company boombox music 5",
       "gui.lethal_company_boombox_musics.boomboxui.button_music": "Music 1",
       "item.lethal_company_boombox_musics.boomboxmusic_2.desc": "Lethal Company boombox music 2",
@@ -406,11 +411,11 @@
       "item.lethal_company_boombox_musics.boomboxmusic_3": "Musique boombox 3",
       "item.lethal_company_boombox_musics.boomboxmusic_4": "Musique boombox 4",
       "item.lethal_company_boombox_musics.boomboxmusic_5": "Musique boombox 5",
-      "subtitles.boombox_music_4": "",
-      "subtitles.boombox_music_5": "",
-      "subtitles.boombox_music_1": "",
-      "subtitles.boombox_music_2": "",
-      "subtitles.boombox_music_3": "",
+      "subtitles.boombox_music_4": "ZedFox",
+      "subtitles.boombox_music_5": "ZedFox",
+      "subtitles.boombox_music_1": "ZedFox",
+      "subtitles.boombox_music_2": "ZedFox",
+      "subtitles.boombox_music_3": "ZedFox",
       "item.lethal_company_boombox_musics.boomboxmusic_5.desc": "Lethal Company boombox music 5",
       "gui.lethal_company_boombox_musics.boomboxui.button_music": "Musique 1",
       "item.lethal_company_boombox_musics.boomboxmusic_2.desc": "Lethal Company boombox music 2",
@@ -433,20 +438,21 @@
   "workspaceSettings": {
     "modid": "lethal_company_boombox_musics",
     "modName": "Lethal Company Boombox musics",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "A mod that allows you to have the Lethal Company boombox in Minecraft",
     "author": "Zac0511",
-    "websiteURL": "https://modrinth.com/project/lethal-company-boombox-musics",
+    "websiteURL": "https://modrinth.com/mod/lethal-company-boombox-musics",
     "license": "GNU General Public License version 3 (GPLv3)",
     "serverSideOnly": false,
+    "updateURL": "https://pastebin.com/raw/4LqC5jag",
     "modPicture": "boomboxicon",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.20.1",
+    "currentGenerator": "neoforge-1.21.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.zac.lethalcompanyboomboxmusics"
   },
-  "mcreatorVersion": 202400232117
+  "mcreatorVersion": 202400340615
 }

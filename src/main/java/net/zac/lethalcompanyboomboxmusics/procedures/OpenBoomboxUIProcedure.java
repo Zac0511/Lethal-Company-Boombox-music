@@ -2,8 +2,6 @@ package net.zac.lethalcompanyboomboxmusics.procedures;
 
 import net.zac.lethalcompanyboomboxmusics.world.inventory.BoomboxuiMenu;
 
-import net.minecraftforge.network.NetworkHooks;
-
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.level.LevelAccessor;
@@ -28,10 +26,15 @@ public class OpenBoomboxUIProcedure {
 			return;
 		if (entity instanceof ServerPlayer _ent) {
 			BlockPos _bpos = BlockPos.containing(x, y, z);
-			NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {
+			_ent.openMenu(new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
 					return Component.literal("Boomboxui");
+				}
+
+				@Override
+				public boolean shouldTriggerClientSideContainerClosingOnOpen() {
+					return false;
 				}
 
 				@Override
